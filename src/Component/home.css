@@ -1,0 +1,84 @@
+.home{
+display: grid;
+grid-template-columns: 55% 40%;
+font-size: 2rem;
+letter-spacing: 2px;
+line-height: 1;
+margin-top: 8rem;
+}
+
+
+.home span{
+	color: #a02279;
+}
+
+.home_header{
+	padding: 0 2rem;
+	font-size: 30px;
+	color: #808080;
+}
+
+.home_header p{
+	padding: 3rem 1rem; 
+	font-size: 20px;
+	
+}
+.home_header input{
+	 border: 1px solid #808080;
+	 width: 60%;
+	 padding: 26px;
+	 
+}
+.search_btn{
+border: 10px solid #a02279;
+ padding: 14px;
+ font-size: 18px;
+ background-color: #a02279;
+   
+  width: 30%;
+
+}
+
+.adventure{
+	padding: 2rem;
+	color: #808080;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 1.5rem;
+	line-height: 1;
+	letter-spacing: 2px;
+}
+.opensat{
+	width: 100%;
+	background-color: #a02279;
+	 display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 0.5rem;
+	margin-top: 4rem;
+}
+ 
+ @media screen and (max-width: 960px){
+	 
+	.home{
+		display: block;
+		
+	}
+	.home_header h1{
+		font-size: 40px;
+	}
+
+	.home_header p{
+		font-size: 30px;
+	}
+	.images{
+		padding: 1.5rem;
+	}
+
+	.opensat{
+		display: block;
+		padding: 1rem;
+		font-size: 5px;
+	}
+ }

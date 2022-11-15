@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+.Relaxation{
+	padding: 1rem 5-9rem
+	2rem 6rem;
+}
+.Relaxation:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.place_card{
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+}
+
+.castle_card{
+	   padding: 2px 3px;
+		font-size: 12px;
+		display: flex;
+		justify-content: space-evenly;
+	 
+}
+.Places {
+	padding: 3rem; 
+	margin: 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1rem;
+     color: #434343;
+}
+
+.Places button{
+    border: 1px solid #434343;;
+	 background-color: #fff;
+	 color: #a02279;
+	 padding: 3px;
+	 border-radius: 10px;
+	 width: 13%;
+	 font-size: 20px;
+	 color: #434343;
+	 
+}
+ 
+ 
+ @media screen and (max-width: 600px) {
+ 	.place_card {
+ 		display: inline-table;
+ 		width: 35%;
+ 		padding: 5px;
+		margin: 6px 92px;
+ 	}
+	.Places{
+		padding: 1rem;
+		margin: 1rem;
+		 display: grid;
+		 grid-template-columns: 15% 25% 35%;
+		justify-content: space-between;
+	}
+	.Places button{
+		border: 1px solid #434343;
+		;
+		background-color: #fff;
+		color: #a02279;
+		padding: 2px;
+		border-radius: 7px;
+		margin: 3px;
+		 width: 100%;
+		font-size: 18px;
+		color: #434343;
+	}
+ }
+
+ @media screen and (max-width: 960px) {
+ 	.place_card {
+ 		display: inline-table;
+ 		width: 15%;
+ 		padding: 0 10px;
+		margin: 8px 18px;
+ 	}
+
+	.Places {
+		padding: 1rem;
+		margin: 1rem;
+		display: grid;
+		grid-template-columns: 15% 25% 35%;
+		justify-content: space-between;
+	}
+		.Places button {
+			border: 1px solid #434343;
+			;
+			background-color: #fff;
+			color: #a02279;
+			padding: 2px;
+			border-radius: 7px;
+			margin: 3px;
+			width: 100%;
+			font-size: 18px;
+			color: #434343;
+		}
+ }
+ 
+  

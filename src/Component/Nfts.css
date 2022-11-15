@@ -1,0 +1,80 @@
+.Nfts_{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	background-color: #a02279;
+	color: #fff;
+}
+
+.nfts_one{
+	padding: 3rem;
+	font-size: 20px;
+	line-height: 2;
+}
+.nfts_one h1{
+	font-size: 3rem;
+	line-height: 3;
+}
+
+.Nfts_ img{
+	padding: 2rem;
+}
+
+.learnmoreBtn{
+ font-size: 18px; 
+ background-color: #fff;
+ color: #a02279;
+ width: 35%;
+ padding: 1rem;
+ border-radius: 25px;
+ margin-top: 15px;
+ 
+   
+  
+}
+
+ @media screen and (max-width: 600px){
+	.Nfts_{
+		display: block;
+		padding: 0.5rem;
+	}
+	.nfts_one {
+		padding: 1rem;
+		font-size: 20px;
+		
+	}
+	.nfts_one h1{
+		font-size: 2rem;
+		line-height: 2;
+	}
+	.Nfts_ img {
+	  width: 350px;
+	  padding: 2rem;
+	 
+	}
+ }
+ @media screen and (max-width: 960px) {
+ 	.Nfts_ {
+ 		display: block;
+ 		padding: 1rem;
+ 	}
+
+ 	.nfts_one {
+ 		padding: 1rem;
+ 		font-size: 20px;
+
+ 	}
+
+ 	.nfts_one h1 {
+ 		font-size: 2rem;
+ 		line-height: 2;
+ 	}
+
+ 	.Nfts_ img {
+ 		width: 450px;
+ 		 
+
+ 	}
+ }
+ 

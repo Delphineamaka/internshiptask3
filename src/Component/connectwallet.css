@@ -1,0 +1,52 @@
+
+*{
+	overscroll-behavior: none;
+}
+ 
+.preferred_wallet h3 {
+ margin-right: 25rem;
+
+	 
+}  
+
+.preferred_wallet p{
+	padding: 1rem;
+}
+
+.preferred_logo{
+ height: 30px;
+
+}
+
+.preferred_wallet button{
+	align-items: center;
+	background: #f8f9fa;
+	border-radius: 22px;
+	display: flex;
+   justify-content: space-between;
+	margin-top: 15px;
+	padding: 10px 25px;
+	width: 100%;
+	 
+}
+.wallet_header{
+    border-bottom: 2px solid #cfd8dc;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+	}
+
+	.preferred_wallet{
+		padding-bottom: 3rem;
+	}
+
+	 @media screen and (max-width: 960px){
+		*{
+			overscroll-behavior: none;
+		}
+		.preferred_wallet h3 {
+			margin-right: 15rem;
+
+
+		}
+	 }

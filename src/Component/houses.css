@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+.advent_image{
+	padding: 1rem 5.9rem 2rem 6rem;
+}
+
+.advent_image:after{
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+.card {
+ 
+	float: left;
+    width: 25%;
+    padding: 0 10px;
+
+}
+
+.container {
+	padding: 2px 3px;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+	  .card{
+		  display: inline-table;
+		  width: 15%;
+		  padding: 0 5px;
+	  }
+}
+@media screen and (max-width: 960px) {
+	.card {
+		display: inline-table;
+		width: 25%;
+		padding: 0 10px;
+
+	}
+}
+
+@media screen and (min-width: 1150px) {
+	.card {
+		display: inline-ta;
+		 
+		width: 25%;
+		padding: 0 10px;
+
+	}
+}
+
+/* @media screen and (max-width: 1200px) {
+	.card {
+		display:  table;
+		width: 25%;
+		padding: 0 10px;
+
+	}
+} */

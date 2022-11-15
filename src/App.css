@@ -1,0 +1,114 @@
+.Nav{
+	position: fixed;
+}
+.navbar{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	 background-color: #ffffff;
+	 width: 100%;
+	 padding: 1rem 2rem;
+	 
+ }
+ .nav_logo{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+ }
+
+ .nav_logo img{
+   width: 250px;
+ }
+ 
+ .nav_links{
+	flex: 1;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #434343;
+	letter-spacing: 2px;
+	line-height: 1;
+ }
+ .Link{
+	text-decoration: none;
+    color: #434343;
+	z-index: 50;
+ }
+
+ .nav_links li{
+	margin: 0 1rem;
+	cursor: pointer;
+ }
+ .connect_btn {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+ 	background: linear-gradient(90deg, #a02279 11.45%, #a02279 0);
+ 	border: none;
+ 	border-radius: 10px;
+ 	color: #fff;
+ 	font-family: Red Rose, cursive;
+ 	font-size: 20px;
+    padding: 10px;
+	margin-left: 40px;
+ }
+
+ .navbar-smscreen{
+	display: none;
+ }
+
+ .smscreen_links{
+	list-style: none;
+ }
+
+ .smscreen_links li{
+	 margin: 2rem;
+	 cursor: pointer;
+	 font-size: 2rem;
+	 text-align: center;
+ }
+ .smscreen_overlay{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100vh;
+	background: blue;
+	transition: .5s ease;
+
+	flex-direction: column;
+	z-index: 5;
+ }
+
+ .overlay_close{
+	  font-size: 27px;;
+	  cursor: pointer;
+	  position: absolute;
+	  top: 20px;
+	  right: 20px;
+ }
+ .btn_smscreen{
+	background: linear-gradient(90deg, #a02279 11.45%, #a02279 0);
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	margin-left: 10rem;
+ }
+
+ @media screen and (max-width: 960px) {
+	
+   .navbar-smscreen {
+		display: flex;
+	}
+	.nav_links {
+		display: none;
+	}
+	  .connect_btn {
+	  	display: none;
+	  }
+	 
+ }
+  
