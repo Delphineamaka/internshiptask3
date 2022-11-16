@@ -82,3 +82,56 @@ border: 10px solid #a02279;
 		font-size: 5px;
 	}
  }
+ @media screen and (max-width: 600px) {
+
+ 	.home {
+ 		display: block;
+
+ 	}
+
+ 	.home_header h1 {
+ 		font-size: 40px;
+ 	}
+
+ 	.home_header p {
+ 		font-size: 30px;
+		padding: 20px;
+ 	}
+
+ 	.images {
+ 		width: auto;
+	 
+ 	}
+
+ 	.opensat {
+ 		display: block;
+       max-width: 100%;
+       background-color: #a02279;
+        margin-top: 1rem;
+ 		font-size: 5px;
+ 	}
+
+	.search_btn {
+		padding: 5px;
+		font-size: 13px;
+		background-color: #a02279;
+		width: 30%;
+
+	}
+
+	.home_header input {
+		border: 1px solid #808080;
+		width: 30%;
+		padding: 14px;
+
+	}
+
+	 .home {
+	 	display: block;
+	 	font-size: 1rem;
+	 
+	 	 
+	 	 
+	  
+	 }
+ }

@@ -32,7 +32,9 @@
 	  .card{
 		  display: inline-table;
 		  width: 15%;
-		  padding: 0 5px;
+		 padding: 6px 12px 0 43px;
+		 margin: 2px 12px 0 32px;
+		   
 	  }
 }
 @media screen and (max-width: 960px) {
@@ -46,7 +48,7 @@
 
 @media screen and (min-width: 1150px) {
 	.card {
-		display: inline-ta;
+		display: inline-table;
 		 
 		width: 25%;
 		padding: 0 10px;
