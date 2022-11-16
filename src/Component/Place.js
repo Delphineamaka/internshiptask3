@@ -15,7 +15,7 @@
 	import House13 from './Asset/House13.png'
 	import House14 from './Asset/House14.png'
 	import Rating from '@mui/material/Rating';
-	import TuneIcon from '@material-ui/icons/Tune';
+	import TuneIcon from '@mui/icons-material/Tune';
 	export default function Place() {
 	return (
 		<div  >
